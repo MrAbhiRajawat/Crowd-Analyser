@@ -15,10 +15,10 @@ FACE_SIMILARITY_THRESHOLD = 0.4
 HAAR_PATH = cv2.data.haarcascades + 'haarcascade_frontalface_default.xml'
 
 # --- TWILIO CREDENTIALS (PLACEHOLDERS) ---
-TWILIO_SID = "YOUR_TWILIO_SID_HERE"
-TWILIO_AUTH_TOKEN = "YOUR_TWILIO_AUTH_TOKEN_HERE"
-TWILIO_FROM_NUMBER = "YOUR_TWILIO_PHONE_NUMBER"
-TWILIO_TO_NUMBER = "YOUR_PERSONAL_PHONE_NUMBER"
+TWILIO_SID = "ACbb77381a4960ee5aa636ac60dfd0d089"
+TWILIO_AUTH_TOKEN = "ba61117fb64b44cbe8d05887ad4864c8"
+TWILIO_FROM_NUMBER = "+16076008989"
+TWILIO_TO_NUMBER = "+919001403069"
 
 # Alert Cooldown (in seconds) so we don't spam SMS
 SMS_COOLDOWN = 30 
@@ -279,3 +279,4 @@ def start_backend():
 
 if __name__ == "__main__":
     start_backend()
+
